@@ -1,0 +1,28 @@
+{
+  "name": "r2-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node upload.mjs",
+    "dry": "cross-env DRY_RUN=true node upload.mjs",
+    "dry10": "cross-env DRY_RUN=true DRY_RUN_MAX=10 node upload.mjs",
+  "concurrent": "cross-env CONCURRENCY=10 node upload.mjs",
+  "probe": "cross-env PROBE=true LIMIT=10 node upload.mjs",
+  "probe:referer": "cross-env PROBE=true LIMIT=10 FETCH_REFERER=https://www.99.co node upload.mjs"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.884.0",
+    "dotenv": "^17.2.2",
+    "mime-types": "^3.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
