@@ -4,7 +4,7 @@ import path from "path";
 import dotenv from "dotenv";
 import mime from "mime-types";
 
-dotenv.config();
+dotenv.config();// ene connection success 
 
 const DRY_RUN = String(process.env.DRY_RUN).toLowerCase() === "true";
 const LIMIT = process.env.LIMIT ? Number(process.env.LIMIT) : undefined;
