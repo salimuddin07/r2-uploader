@@ -1,5 +1,5 @@
-R2_ACCESS_KEY_ID=200249ae75c709624bc36565a4eb53c51eef
-R2_SECRET_ACCESS_KEY=36ce1db6c7835085d24e7db665d2935342560e178deec58afb9a01d694c7e5d71204
-R2_ENDPOINT=https://36ce1db6c7835085d24e7db665d2935342560e178deec58afb9a01d694c7e5d71204.r2.cloudflarestorage.com
-R2_BUCKET=listings_sg
-R2_SESSION_TOKEN=023M3iewpj9r-Pv-RZ2PiHjdoJeNpBRqjZT6mPQb1k
+R2_ACCESS_KEY_ID= replace with your r2 access key
+R2_SECRET_ACCESS_KEY= replace with your r2 secret access key
+R2_ENDPOINT=https://replace with your r2 endpoint.r2.cloudflarestorage.com
+R2_BUCKET=listings_sg => replace with your r2 bucket name
+R2_SESSION_TOKEN=replace with your r2 session token
